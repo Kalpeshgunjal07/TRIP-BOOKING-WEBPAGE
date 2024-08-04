@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India - Tourism Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <a href="#">Explore India</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#forms">Booking & Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Incredible India</h1>
+            <p>Explore the rich culture, diverse landscapes, and historic landmarks.</p>
+            
+            <a href="#destinations" class="explore-btn">Explore Now</a>
+        </div>
+    </section>
+
+<!-- Featured Destinations Section -->
+<section id="destinations" class="featured-destinations">
+    <h1>Featured Destinations</h1>
+    <div class="destinations-grid">
+        <!-- Destination 1: Gateway of India, Mumbai -->
+        <div class="destination">
+            <img src="/photos/mu.jpg" alt="Gateway of India, Mumbai">
+            <h2>Maharashtra</h2>
+            <p>Explore the iconic Gateway of India, a historical monument overlooking the Arabian Sea.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 2: Golden Temple, Amritsar -->
+        <div class="destination">
+            <img src="/photos/Punjab Golden Temple.webp" alt="Golden Temple, Amritsar">
+            <h2>Golden Temple</h2>
+            <p>Visit the serene and beautiful Golden Temple, a major pilgrimage site in Punjab.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 3: Hawa Mahal, Jaipur -->
+        <div class="destination">
+            <img src="/photos/mahal.jpg" alt="Hawa Mahal, Jaipur">
+            <h2>Hawa Mahal</h2>
+            <p>Marvel at the unique architecture of Hawa Mahal, known as the Palace of Winds.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 4: Charminar, Hyderabad -->
+        <div class="destination">
+            <img src="/photos/hydrabad.jpg" alt="Charminar, Hyderabad">
+            <h2>Hyderabad</h2>
+            <p>Experience the vibrant city of Hyderabad, known for its historical Charminar monument.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 5: Sikkim -->
+        <div class="destination">
+            <img src="/photos/sikkim.jpg" alt="Sikkim">
+            <h2>Sikkim</h2>
+            <p>Discover the scenic beauty and rich culture of Sikkim, nestled in the Himalayas.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 6: Kashmir -->
+        <div class="destination">
+            <img src="/photos/kasmir.webp" alt="Kashmir">
+            <h2>Kashmir</h2>
+            <p>Explore the stunning landscapes of Kashmir, often called 'Paradise on Earth'.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 7: Somnath -->
+        <div class="destination">
+            <img src="/photos/somnath-temple.jpg" alt="Somnath">
+            <h2>Gujrat</h2>
+            <p>Visit the sacred Somnath Temple, one of the twelve Jyotirlingas dedicated to Lord Shiva.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 8: Madhya Pradesh -->
+        <div class="destination">
+            <img src="/photos/mp.jpg" alt="Madhya Pradesh">
+            <h2>Madhya Pradesh</h2>
+            <p>Explore the diverse heritage and natural beauty of Madhya Pradesh.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 9: Goa -->
+        <div class="destination">
+            <img src="/photos/goa.webp" alt="Goa">
+            <h2>Goa</h2>
+            <p>Relax on the beautiful beaches of Goa and experience its vibrant nightlife.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 10: Chennai -->
+        <div class="destination">
+            <img src="/photos/chennai.jpg" alt="Chennai">
+            <h2>Chennai</h2>
+            <p>Discover the rich culture and history of Chennai, the capital of Tamil Nadu.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 11: Kerala Backwaters -->
+        <div class="destination">
+            <img src="/photos/kerala.jpg" alt="Kerala Backwaters">
+            <h2>Kerala</h2>
+            <p>Experience the serene backwaters of Kerala, a tranquil escape into nature.</p>
+            <button>BOOK NOW</button>
+        </div>
+        <!-- Destination 12: Andaman and Nicobar Islands -->
+        <div class="destination">
+            <img src="/photos/andaman.webp" alt="Andaman and Nicobar Islands">
+            <h2>Andaman and Nicobar</h2>
+            <p>Explore the beautiful beaches and marine life of the Andaman and Nicobar Islands.</p>
+            <button>BOOK NOW</button>
+        </div>
+    </div>
+</section>
+    <!-- Explore More Section -->
+    <section id="more" class="explore">
+        <button>Explore More</button>
+    </section>
+    <div class="details"><h1>Fill Both Details to Book Your Journey</h1></div>
+     <!-- New Booking and Feedback Forms Section -->
+    <section id="forms" class="forms-section">
+        <div class="form-container booking-form-container">
+            <h2>Book Your Trip</h2>
+            <form class="booking-form">
+                <label for="destination">Destination</label>
+                <select id="destination" name="destination" required>
+                    <option value="" disabled selected>Select a destination</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Kashmir">Kashmir</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Chennai">Chennai</option>
+                </select>
+                </select>
+
+                <label for="check-in">Check-in Date</label>
+                <input type="date" id="check-in" name="check-in" required>
+
+                <label for="check-out">Check-out Date</label>
+                <input type="date" id="check-out" name="check-out" required>
+
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests" required>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="4">5 Guests</option>
+                    <option value="4">6 Guests</option>
+                    <option value="4">7 Guests</option>
+                    <option value="4">8 Guests</option>
+                    <option value="4">9 Guests</option>
+                    <option value="4">10 Guests</option>
+                </select>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+
+        <div class="form-container feedback-form-container">
+            <h2>Customer Details</h2>
+            <form class="feedback-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number">
+
+                <label for="feedback">Your Message</label>
+                <textarea id="feedback" name="feedback" rows="1" required></textarea>
+
+                <button type="submit">Submit Details</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+                <h1>About Us</h1>
+                <div class="about-info">
+                <p>Welcome to Explore India, your go-to travel guide for discovering the wonders of India. Our mission is to provide you with the best travel experience by offering comprehensive information on top destinations, booking options, and personalized feedback.
+                Founded by travel enthusiasts, we are dedicated to helping you explore the diverse cultures, stunning landscapes, and rich heritage of India.
+                From historical landmarks to breathtaking nature spots, we ensure you have an unforgettable journey.
+                Our team is passionate about travel and committed to offering exceptional services to make your trip memorable and enjoyable.We believe that travel is not just about visiting new places but also about experiencing and understanding the essence of each destination.Whether you're an adventure seeker, a history buff, a nature lover, or a culinary enthusiast, we have something special for everyone.</p>
+            </div>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" class="social-link">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" class="social-link">Twitter</a>
+                    <a href="https://instagram.com" target="_blank" class="social-link">Instagram</a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
